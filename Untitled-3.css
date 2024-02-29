@@ -889,16 +889,16 @@ width: 35px;
 }
 
 .projects__img{
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
 }
 
 .projects__modal{
   position: absolute;
   left: 0;
   bottom: 0 ;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   background: linear-gradient(180deg, hsla(0,0%,0%, 0) 0%,
                                       hsla(var(--hue), 70%, 20%, .8) 120% );
   backdrop-filter: blur(1px);
@@ -936,5 +936,13 @@ width: 35px;
 
 .projects__button i{
   font-size: 1.25rem;
+}
+
+.projects__subtitle {
+  color: #000; /* Warna hitam */
+}
+
+.projects__title {
+  color: #000; /* Warna hitam */
 }
 
