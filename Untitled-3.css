@@ -910,3 +910,31 @@ width: 35px;
   justify-content: center;
   transition: bottom .4s;
 }
+
+.projects__subtitle,
+.projects__button{
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+}
+
+.projects__subtitle{
+  display: block;
+  margin-bottom: .25rem;
+}
+
+.projects__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: .75rem;
+}
+
+.projects__button{
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-weight: var(--font-medium);
+}
+
+.projects__button i{
+  font-size: 1.25rem;
+}
+
