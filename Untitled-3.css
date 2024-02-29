@@ -830,3 +830,49 @@ width: 35px;
         z-index: 11;
     }
 }
+.back-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #383737;
+    color: rgb(199, 4, 4);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 9999;
+  }
+  
+  .back-button:hover {
+    background-color: #000000;
+  }
+  .section {
+    padding-block: 5rem 2rem;
+  }
+  .section__title, 
+.section__subtitle {
+  text-align: center;
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  margin-bottom: 1.5rem;
+}
+
+.section__subtitle {
+  font-size: var(--small-font-size);
+  margin-bottom: .25rem;
+}
+
+.section__subtitle span {
+  color: var(--first-color);
+}
+.section__title{
+    font-size: 36px;
+  }
+
+  .section__subtitle{
+    font-size: 20px;
+  }
